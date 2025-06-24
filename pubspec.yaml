@@ -1,0 +1,60 @@
+name: projettraduite
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.7.0'  # Contrainte pour Dart
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Gestion des fichiers (ajout des implémentations pour toutes les plateformes)
+  path_provider: ^2.0.11
+  path_provider_windows: ^2.0.5
+  path_provider_macos: ^2.0.5
+  path_provider_linux: ^2.1.0
+  translator: ^0.1.7
+
+  # Icônes iOS et Material Design
+  cupertino_icons: ^1.0.8
+
+  # Transcription Audio en Texte
+  speech_to_text: ^7.0.0
+
+  # Conversion Texte en Audio
+  flutter_tts: ^4.2.2
+
+  # Gestion des permissions
+  permission_handler: ^12.0.0+1
+
+  # Sélecteur de fichiers audio
+  file_picker: ^10.1.9
+
+  # Gestion de l'état (optionnel)
+  provider: ^6.0.5
+
+  # Gestion des animations pour une interface fluide
+  animations: ^2.0.7
+
+  # Internationalisation (Support des langues)
+  flutter_localizations:
+    sdk: flutter
+  intl: 0.19.0  # Correction de la version pour éviter les conflits
+
+  # Stockage des préférences utilisateur
+  shared_preferences: ^2.2.2
+
+  # Gestion avancée des fichiers audio (Lecture et édition)
+  audioplayers: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
